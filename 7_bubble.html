@@ -41,6 +41,9 @@
             ('click', function (event) {
                 console.log('second4 item clicked');
             });
+
+
+
         // ul
         document.getElementById('list-container').addEventListener(
             'click', function (event) {
@@ -48,10 +51,14 @@
                 event.stopPropagation();
             }
         );
+
+
+
         // section
         document.getElementById('section-container').addEventListener(
-            'click', function () {
+            'click', function (event) {
                 console.log('section clicked');
+                event.stopPropagation;
             }
         )
     </script>
