@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+
+<body>
+    <input id="your-name" type="text" placeholder="Your Name">
+    <button id="button-name">Name</button>
+    <br>
+
+    <input id="your-email" type="text" placeholder="Your Email">
+    <button id="button-email">Email</button>
+    <br>
+    <br>
+
+    <button id="name-email">Name & Email</button>
+
+
+    <script>
+        // Name
+        document.getElementById('button-name').addEventListener('click', function () {
+            const yourName = document.getElementById('your-name');
+            console.log(yourName.value);
+        });
+
+        // Email
+        document.getElementById('button-email').addEventListener('click', function () {
+            const yourEmail = document.getElementById('your-email');
+            console.log(yourEmail.value);
+        })
+
+        // Name & Email
+        
+    </script>
+</body>
+
+</html>
